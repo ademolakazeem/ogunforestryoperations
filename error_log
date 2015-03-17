@@ -1,0 +1,59 @@
+[24-Apr-2014 08:48:34 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ogforest/public_html/ClassesController/DBDirect.php on line 18
+[24-Apr-2014 08:48:34 UTC] PHP Fatal error:  Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ogforest/public_html/ClassesController/DBDirect.php on line 18
+[09-Jul-2014 13:10:03 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/ogforest/public_html/ClassesController/DBDirect.php on line 18
+[09-Jul-2014 13:10:03 UTC] PHP Fatal error:  Too many connections in /home/ogforest/public_html/ClassesController/DBDirect.php on line 18
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/total_reserves.php on line 178
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 657
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 433
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 529
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 597
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 480
+[30-Aug-2014 15:11:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 328
+[30-Aug-2014 15:11:48 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 529
+[30-Aug-2014 15:11:53 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ogforest/public_html/more.php on line 328
+[09-Jan-2015 16:43:54 UTC] PHP Fatal error:  Call to undefined method AdminController::getRandomString() in /home/ogforest/public_html/forgotPassword.php on line 41
+[09-Jan-2015 17:58:49 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[09-Jan-2015 17:58:49 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[09-Jan-2015 17:58:49 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 15:02:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 15:02:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 15:02:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 15:03:53 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 15:03:53 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 15:03:53 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 15:17:53 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 15:17:53 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 15:17:53 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 16:52:12 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 16:52:12 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 16:52:12 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 23:33:00 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 23:33:00 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 23:33:00 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 23:36:43 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 23:36:43 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 23:36:43 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[10-Jan-2015 23:57:55 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[10-Jan-2015 23:57:55 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[10-Jan-2015 23:57:55 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:00:19 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[11-Jan-2015 00:00:19 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[11-Jan-2015 00:00:19 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:11:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[11-Jan-2015 00:11:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[11-Jan-2015 00:11:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:14:59 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[11-Jan-2015 00:14:59 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[11-Jan-2015 00:14:59 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:17:18 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[11-Jan-2015 00:17:18 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[11-Jan-2015 00:17:18 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:29:34 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[11-Jan-2015 00:29:34 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[11-Jan-2015 00:29:34 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:31:06 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 94
+[11-Jan-2015 00:31:06 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 96
+[11-Jan-2015 00:31:06 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 98
+[11-Jan-2015 00:54:34 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 99
+[11-Jan-2015 00:54:34 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 101
+[11-Jan-2015 00:54:34 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/ogforest/public_html/ClassesController/AdminManager.php on line 103

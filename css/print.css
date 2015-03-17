@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background:none;}
+.container {background:none;}
+
+
+.logo{
+	margin-top:10px;
+	margin-left:22px;
+	margin-right:auto;
+	width:80%;
+}
+
+.upnav{
+display:none;}
