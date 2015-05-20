@@ -511,7 +511,7 @@ $this->audit->audit_log("Admin ".$_SESSION['username']." Updated contractor acco
 							//call a method that returns school's shorth form
 							$minshr = "FSY";
 							$curDate=date('YmdHis');
-  $userid = $minshr.$curDate.$serial;//generate
+							$userid = $minshr.$curDate.$serial;//generate
   
   
   
@@ -1224,7 +1224,6 @@ while($row_list=mysql_fetch_assoc($list))
 			  }
 	  
 	  }  //end function contractor transaction status	  
-
 
 function  User_Account_Registration()
 	  {   

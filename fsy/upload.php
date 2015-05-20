@@ -22,7 +22,7 @@ if(isset($_SESSION['levelaccess']))
 
 
 //check if user has required permissions 
-$rs = mysql_query("select *from tbl_user_permission WHERE username='".$_SESSION['username']."' && permission_id='$page_permission_id'");
+$rs = mysql_query("select * from tbl_user_permission WHERE username='".$_SESSION['username']."' && permission_id='$page_permission_id'");
 $has_page_permission = mysql_num_rows($rs);
 if ($has_page_permission > 0)
 {}
