@@ -1021,27 +1021,45 @@ function  Contractor_Transaction_Activate()
 			  
 		   
 	  	  //update
-
-		  $query="INSERT INTO tbl_contractor_transaction
+		/*
+		$query="INSERT INTO tbl_contractor_transaction
 		  (id, tree_type, quantity, transaction_cost, reserved_location,phn, snl, locn, snop, attended_by,authorized_by, date,
 		  maker_id,contractor_id,sender_email,approval_status,remarks) VALUES($transaction_id,$tree_type,'$quantity',
 		  '$transaction_cost', '$reserved_location','$phn', '$snl', '$locn', '$snop', '$attended_by', '$authorized_by','$date', '$maker_id','$contractor_id','$sender_email','$approval_status','$remarks')";
-		  
-						  
-		  $query2="INSERT INTO tbl_contractor_transaction_history
+		
+		 $query2="INSERT INTO tbl_contractor_transaction_history
 		  (id, tree_type, quantity,transaction_cost, reserved_location, phn, snl, locn, snop,attended_by,authorized_by, date, maker_id,
 		  contractor_id,sender_email,approval_status,remarks) VALUES($transaction_id,$tree_type,'$quantity','$transaction_cost',
 		  '$reserved_location', '$attended_by','$phn', '$snl', '$locn', '$snop', '$authorized_by','$date', '$maker_id','$contractor_id','$sender_email','$approval_status','$remarks')";
+  
+		
+		*/
+		
+		  $query="INSERT INTO tbl_contractor_transaction
+		  (tree_type, quantity, transaction_cost, reserved_location,phn, snl, locn, snop, attended_by,authorized_by, date,
+		  maker_id,contractor_id,sender_email,approval_status,remarks) VALUES($tree_type,'$quantity',
+		  '$transaction_cost', '$reserved_location','$phn', '$snl', '$locn', '$snop', '$attended_by', '$authorized_by','$date', '$maker_id','$contractor_id','$sender_email','$approval_status','$remarks')";
+		  
+		  
+						  
+		  $query2="INSERT INTO tbl_contractor_transaction_history
+		  (tree_type, quantity,transaction_cost, reserved_location, phn, snl, locn, snop,attended_by,authorized_by, date, maker_id,
+		  contractor_id,sender_email,approval_status,remarks) VALUES($tree_type,'$quantity','$transaction_cost',
+		  '$reserved_location', '$attended_by','$phn', '$snl', '$locn', '$snop', '$authorized_by','$date', '$maker_id','$contractor_id','$sender_email','$approval_status','$remarks')";
 
+		  
+		  
+		  
 		//update contractor account balance
 		$new_balance = $current_balance - $transaction_cost;
 		  $query3="UPDATE tbl_contractor_account set amount_deposited = $new_balance where contractor_id='$contractor_id'";	
 		  
 		  //return $query;
+		 // echo "I am able to get here before saving tbl_contractor_transaction<br/>";
 		  $res1 = mysql_query($query) or die(mysql_error());
-
+			//echo "I am able to get here after saving tbl_contractor_transaction before tbl_contractor_transaction_history<br/>";		
 		  $res2 = mysql_query($query2) or die(mysql_error());
-
+		//echo "I am able to get here after saving tbl_contractor_transaction_history<br/>";
 
 		  $res3 = mysql_query($query3) or die(mysql_error());
 		  if($res1 && $res2 && $res3)
